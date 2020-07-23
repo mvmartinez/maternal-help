@@ -6,3 +6,8 @@ window.addEventListener('scroll', function(){
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
+
+const init=function(){
+	document.getElementById('submit').addEventListener('click', submit);
+
+}
