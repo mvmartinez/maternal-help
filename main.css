@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,11 +11,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 body {
-	background: ;
 	min-height: 200vh;
 	font-family: 'Raleway', sans-serif;
-	background-color: 
-	color: 
+	background-color:
 }
 
 header {
@@ -28,7 +26,7 @@ header {
 	align-items: center;
 	transition: 0.6s;
 	z-index: 100000;
-	
+
 }
 
 header.sticky {
@@ -58,7 +56,7 @@ header ul {
 header ul li {
 	position: relative;
 	list-style: none;
-	
+
 }
 
 header ul li a {
@@ -69,7 +67,7 @@ header ul li a {
 	letter-spacing: 2px;
 	font-weight: 500px;
 	transition: 0.5s;
-	
+
 }
 
 header.sticky .logo,
@@ -87,7 +85,7 @@ header.sticky ul li a{
 	margin-left: 150px;
 	margin-right: 150px;
 	border: 10px double #6C757D;
-	
+
 }
 
 .dropdown-content {
@@ -117,5 +115,5 @@ header.sticky ul li a{
 }
 
 .maternal-health {
-	
+
 }
