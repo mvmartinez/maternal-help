@@ -2,18 +2,29 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-
+	font-family: 'Raleway', sans-serif;
+	background-color: #F8F9FA;
+	color: #495057;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: #343a40;
+	text-align: left;
 }
 
+h1 {
+	font-size: 35px;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 2em;
+}
 
 body {
-	min-height: 200vh;
-	font-family: 'Raleway', sans-serif;
-	background-color:
+	text-align: justify;
+	margin-top: 100px;
+	margin-left: 150px;
+	margin-right: 150px;
+	line-height: 27px;
 }
 
 header {
@@ -26,13 +37,12 @@ header {
 	align-items: center;
 	transition: 0.6s;
 	z-index: 100000;
-
+	
 }
 
 header.sticky {
 	padding: 5px 100px;
-	background: #000;
-
+	background: #212529;
 }
 
 header .logo {
@@ -56,7 +66,6 @@ header ul {
 header ul li {
 	position: relative;
 	list-style: none;
-
 }
 
 header ul li a {
@@ -67,25 +76,18 @@ header ul li a {
 	letter-spacing: 2px;
 	font-weight: 500px;
 	transition: 0.5s;
-
 }
 
 header.sticky .logo,
 header.sticky .dropdown,
-header.sticky ul li a{
+header.sticky ul,
+header.sticky ul li,
+header.sticky ul li a {
 	color: #fff;
+	background-color: #212529;
 }
 #google_translate_element {
 	margin-right: 30px;
-}
-
-.maternal-health {
-	text-align: center;
-	margin-top: 100px;
-	margin-left: 150px;
-	margin-right: 150px;
-	border: 10px double #6C757D;
-
 }
 
 .dropdown-content {
@@ -114,6 +116,13 @@ header.sticky ul li a{
   display: block;
 }
 
-.maternal-health {
+.images {
+	text-align: center;
+	width: 500px;
+}
 
+#information h2,
+#information h3, 
+#information h4 {
+	line-height: 3em;
 }
