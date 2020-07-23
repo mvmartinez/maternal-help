@@ -3,7 +3,13 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Raleway', sans-serif;
-	background-color: #fbfbf2;
+	background-color: #F8F9FA;
+	color: #495057;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #343a40;
+}
 }
 
 body {
@@ -79,7 +85,7 @@ header.sticky ul li a{
 	margin-top: 100px;
 	margin-left: 150px;
 	margin-right: 150px;
-	border: 1px solid black;
+	border: 10px double #6C757D;
 	
 }
 
