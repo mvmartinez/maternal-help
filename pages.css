@@ -1,7 +1,7 @@
 article{
   margin-top: 3rem;;
 }
-h4{
+h4, h3{
 margin-top: 1rem ;
 
 }
@@ -12,9 +12,8 @@ margin-top: 1rem ;
 .information ul li a:link {
   color: #228eaf;
 }
-img{
-  margin-left: auto;
-  margin-right:auto;
+.main-img{
   display: block;
-  width: 50%
+  width: 50%;
+  margin: 1rem auto;
 }
