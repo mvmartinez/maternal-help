@@ -1,5 +1,6 @@
 article{
-  margin-top: 3rem;;
+  margin-top: 3rem;
+  margin-left: 3rem;
 }
 h4, h3{
 margin-top: 1rem ;
@@ -22,12 +23,12 @@ ul{
 a.image-credit{
   font-size: .5rem;
   color: #727272;
-  padding-left:42rem;
+  padding-left:53rem;
   margin-top: 0;
 }
 
 #information {
-	margin-bottom: 120px;
+	margin-bottom: 3rem;
 }
 
 .resources {

@@ -9,7 +9,7 @@
 h1, h2, h3, h4, h5, h6 {
 	color: #343a40;
 	text-align: left;
-	
+
 }
 
 h1 {
@@ -71,7 +71,6 @@ header ul li a {
 	text-decoration: none;
 	color: #000;
 	letter-spacing: 2px;
-	font-weight: 500px;
 	transition: 0.5s;
 }
 
@@ -142,9 +141,7 @@ footer ul li a {
 	text-decoration: none;
 	color: #fff;
 	letter-spacing: 2px;
-	font-weight: 500px;
 	transition: 0.5s;
-	
 }
 
 footer ul {
@@ -156,8 +153,8 @@ footer ul {
 footer ul li {
 	position: relative;
 	list-style: none;
-	
-	
+
+
 }
 
 
@@ -170,10 +167,9 @@ footer ul li {
 	color: white;
 	background-color: black;
 	width: 100%;
-	padding: 30px;
 	bottom: 0;
 	position: fixed;
-	
+
 }
 
 
@@ -182,7 +178,7 @@ footer ul li {
 	margin-top: 100px;
 	margin-left: 150px;
 	margin-right: 150px;
-	color: color: #495057;
+	color: #495057;
 }
 
 
@@ -219,10 +215,3 @@ footer ul li {
   font-size: 16px;
   border: none;
 }
-
-
-
-
-
-
-
