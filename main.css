@@ -37,7 +37,7 @@ header {
 	align-items: center;
 	transition: 0.6s;
 	z-index: 100000;
-	
+
 }
 
 header.sticky {
@@ -122,7 +122,11 @@ header.sticky ul li a {
 }
 
 #information h2,
-#information h3, 
+#information h3,
 #information h4 {
 	line-height: 3em;
+}
+
+p, li{
+	font-family: 'Open Sans', sans-serif;
 }
