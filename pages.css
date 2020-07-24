@@ -28,7 +28,8 @@ a.image-credit{
 }
 
 #information {
-	margin-bottom: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 .resources {
