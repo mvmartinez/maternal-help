@@ -130,3 +130,11 @@ header.sticky ul li a {
 p, li{
 	font-family: 'Open Sans', sans-serif;
 }
+.title-img{
+  display: block;
+  width: 30%;
+	margin: 1rem auto;
+	border: double 10px #000000d8;
+	border-radius: 50%;
+	height: 300px;
+}
