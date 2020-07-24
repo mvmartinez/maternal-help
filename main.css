@@ -51,6 +51,7 @@ header .logo {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	transition: 0.6s;
+	font-family: 'Raleway', cursive;
 }
 
 header ul {
@@ -184,9 +185,44 @@ footer ul li {
 	margin-right: 150px;
 	color: color: #495057;
 }
-div#push {
-height: 80px;
+
+
+.dropup {
+  position: relative;
+  display: inline-block;
 }
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  bottom: 50px;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {background-color: #ddd}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropbtnu {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+
 
 
 
